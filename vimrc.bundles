@@ -1,0 +1,23 @@
+set nocompatible
+filetype off
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+
+Plugin 'scrooloose/nerdtree'
+
+Plugin 'vim-scripts/taglist.vim'
+
+Plugin 'vim-scripts/Syntastic'
+
+Plugin 'scrooloose/nerdcommenter'
+
+Plugin 'vim-scripts/Mark--Karkat'
+
+Plugin 'vim-scripts/bsh.vim'
+
+call vundle#end()
+filetype plugin indent on
+
