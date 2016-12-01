@@ -20,6 +20,7 @@ Plugin 'vim-scripts/bsh.vim'
 
 Plugin 'Valloric/YouCompleteMe'
 
+Plugin 'rdnetto/YCM-Generator'
 call vundle#end()
 filetype plugin indent on
 
